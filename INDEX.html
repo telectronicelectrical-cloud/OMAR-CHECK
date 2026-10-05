@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="es"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Checklist de Clientes - Timiest&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f4f6f9;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 1000px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 25px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 12px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 12px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h2 {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #1a1a1a;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.table-responsive {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>overflow-x: auto;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>table {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-collapse: collapse;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>th, td {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 12px 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-bottom: 1px solid #e1e4e8;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>th {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #2c3e50;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ffffff;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 600;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>th:first-child {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 40%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>td:first-child {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-weight: 500;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #2c3e50;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>td {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>input[type="checkbox"] {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>tr:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f8fafc;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.footer-note {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 0.85rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #7f8c8d;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Checklist de Expedientes - CFE&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="table-responsive"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;th&gt;Requisito[span_0](start_span)[span_0](end_span)&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;th&gt;Arcela&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;th&gt;Emilia&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;th&gt;Isabel&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;tbody id="checklist-body"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Se llena mediante JavaScript --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="footer-note"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>Tus selecciones se guardan automáticamente en tu navegador.</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const items = [</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Anexo 2[span_1](start_span)[span_1](end_span)",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Ine titular[span_2](start_span)[span_2](end_span)",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Recibo[span_3](start_span)[span_3](end_span)",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Croquis[span_4](start_span)[span_4](end_span)",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Unifilar[span_5](start_span)[span_5](end_span)",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Ficha técnica paneles[span_6](start_span)[span_6](end_span)",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Ficha inversor[span_7](start_span)[span_7](end_span)",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Certificado inversor[span_8](start_span)[span_8](end_span)",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Carta poder[span_9](start_span)[span_9](end_span)",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>"Fotos paneles micro fachada[span_10](start_span)[span_10](end_span)"</p>
+<p class="p1"><span class="Apple-converted-space">    </span>];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const clients = ["arcela", "emilia", "isabel"];</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const tbody = document.getElementById("checklist-body");</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>items.forEach((item, rowIndex) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const tr = document.createElement("tr");</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Columna del nombre del requisito</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const tdItem = document.createElement("td");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>tdItem.textContent = item;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>tr.appendChild(tdItem);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Columnas de checkboxes para cada cliente</p>
+<p class="p1"><span class="Apple-converted-space">        </span>clients.forEach(client =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const tdCheck = document.createElement("td");</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const checkbox = document.createElement("input");</p>
+<p class="p1"><span class="Apple-converted-space">            </span>checkbox.type = "checkbox";</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>const storageKey = `checklist_${client}_${rowIndex}`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>checkbox.checked = localStorage.getItem(storageKey) === "true";</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>checkbox.addEventListener("change", () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>localStorage.setItem(storageKey, checkbox.checked);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>tdCheck.appendChild(checkbox);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>tr.appendChild(tdCheck);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>tbody.appendChild(tr);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+<p class="p2"><br></p>
+</body>
+</html>
